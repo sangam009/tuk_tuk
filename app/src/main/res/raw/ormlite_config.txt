@@ -1,0 +1,318 @@
+# --table-start--
+dataClass=com.traveldiary.database.tables.ServiceDataCache
+tableName=profilebyid
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=params
+columnName=params
+# --field-end--
+# --field-start--
+fieldName=url
+columnName=url
+# --field-end--
+# --field-start--
+fieldName=response
+columnName=response
+# --field-end--
+# --field-start--
+fieldName=timestamp
+columnName=timestamp
+# --field-end--
+# --field-start--
+fieldName=module
+columnName=module
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+
+#################################
+# --table-start--
+dataClass=com.traveldiary.database.tables.ImageTemplate
+tableName=image_templates
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=imageBase64
+columnName=image_base_64
+# --field-end--
+# --field-start--
+fieldName=fetchedFrom
+columnName=fetched_from
+# --field-end--
+# --field-start--
+fieldName=uri
+columnName=uri
+# --field-end--
+# --field-start--
+fieldName=timestamp
+columnName=timestamp
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+
+#################################
+# --table-start--
+dataClass=com.traveldiary.database.tables.UserImageTable
+tableName=userimagetable
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=imageUrl
+columnName=image_url
+# --field-end--
+# --field-start--
+fieldName=base64Image
+columnName=base_64_image
+# --field-end--
+# --field-start--
+fieldName=imageBaseUrl
+columnName=image_base_url
+# --field-end--
+# --field-start--
+fieldName=imageUri
+columnName=image_uri
+# --field-end--
+# --field-start--
+fieldName=imageSource
+columnName=image_source
+# --field-end--
+# --field-start--
+fieldName=order
+columnName=order
+# --field-end--
+# --field-start--
+fieldName=timestamp
+columnName=timestamp
+# --field-end--
+# --field-start--
+fieldName=isSynced
+columnName=is_synced
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+
+#################################
+# --table-start--
+dataClass=com.traveldiary.database.tables.ProfileTable
+tableName=profiletable
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+id=true
+# --field-end--
+# --field-start--
+fieldName=profile
+columnName=profile
+# --field-end--
+# --field-start--
+fieldName=type
+columnName=type
+# --field-end--
+# --field-start--
+fieldName=filter
+columnName=filter
+# --field-end--
+# --field-start--
+fieldName=timestamp
+columnName=timestamp
+# --field-end--
+# --field-start--
+fieldName=isSynced
+columnName=is_synced
+# --field-end--
+# --field-start--
+fieldName=profileTaken
+columnName=profile_taken
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+
+
+#################################
+# --table-start--
+dataClass=com.traveldiary.database.tables.FilterTable
+tableName=filtertable
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=filter
+columnName=filter
+# --field-end--
+# --field-start--
+fieldName=timestamp
+columnName=timestamp
+# --field-end--
+# --field-start--
+fieldName=filterKey
+columnName=filter_key
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+
+#################################
+# --table-start--
+dataClass=com.traveldiary.database.tables.FbProfileTable
+tableName=fbprofiletable
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=profile
+columnName=profile
+# --field-end--
+# --field-start--
+fieldName=timestamp
+columnName=timestamp
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+
+#################################
+# --table-start--
+dataClass=com.traveldiary.database.tables.SuperLikedTable
+tableName=SuperLikedTable
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+id=true
+# --field-end--
+# --field-start--
+fieldName=imgUrl
+columnName=img_url
+# --field-end--
+# --field-start--
+fieldName=name
+columnName=name
+# --field-end--
+# --field-start--
+fieldName=age
+columnName=age
+# --field-end--
+# --field-start--
+fieldName=country
+columnName=country
+# --field-end--
+# --field-start--
+fieldName=gender
+columnName=gender
+# --field-end--
+# --field-start--
+fieldName=isMatch
+columnName=is_match
+# --field-end--
+# --field-start--
+fieldName=timestamp
+columnName=timestamp
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+
+#################################
+# --table-start--
+dataClass=com.traveldiary.database.tables.NotificationSubscriptionTable
+tableName=notificationsubscriptiontable
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+id=true
+# --field-end--
+# --field-start--
+fieldName=subscribed
+columnName=subscribed
+# --field-end--
+# --field-start--
+fieldName=timestamp
+columnName=timestamp
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+
+
+#################################
+# --table-start--
+dataClass=com.traveldiary.database.tables.ChatUsersList
+tableName=chatuserlist
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+id=true
+# --field-end--
+# --field-start--
+fieldName=userId
+columnName=user_id
+# --field-end--
+# --field-start--
+fieldName=lastMessage
+columnName=last_message
+# --field-end--
+# --field-start--
+fieldName=lastMessageTimestamp
+columnName=last_message_timestamp
+# --field-end--
+# --field-start--
+fieldName=name
+columnName=name
+# --field-end--
+# --field-start--
+fieldName=isSelf
+columnName=is_self
+# --field-end--
+# --field-start--
+fieldName=lastSeenTimestamp
+columnName=last_seen_timestamp
+# --field-end--
+# --field-start--
+fieldName=matchDate
+columnName=match_date
+# --field-end--
+# --field-start--
+fieldName=imageUrl
+columnName=image_url
+# --field-end--
+# --field-start--
+fieldName=deviceTokens
+columnName=device_tokens
+# --field-end--
+# --field-start--
+fieldName=isNotificationDisabledByPartner
+columnName=is_notification_disabled_by_partner
+# --field-end--
+# --field-start--
+fieldName=isNotificationDisabledBySelf
+columnName=is_notification_disabled_by_self
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

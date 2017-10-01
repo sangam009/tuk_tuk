@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">917080582681-41il3rq1pg9sjprib5eg4tscoc23eb5j.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://gitlab-173917.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">917080582681</string>
+    <string name="google_api_key" translatable="false">AIzaSyCJrY2LCEciu7AxelJn3ZO52qgiJTbatg4</string>
+    <string name="google_app_id" translatable="false">1:917080582681:android:8227e4e52b08c4df</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCJrY2LCEciu7AxelJn3ZO52qgiJTbatg4</string>
+    <string name="google_storage_bucket" translatable="false">gitlab-173917.appspot.com</string>
+    <string name="project_id" translatable="false">gitlab-173917</string>
+</resources>

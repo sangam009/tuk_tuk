@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Travel Diary</string>
+    <string name="Ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="package_info">
+        {
+  /"packages/": [
+    {
+      /"packageId/": /"package_id/",
+      /"packageNamePrimary/": /"Uttar Pradesh/",
+      /"packageNameSecondary/": /"Ghaziabad-Agra-Rishikesh/",
+      /"estimatedTravelTime/": /"3D-2N/",
+      /"packageDestinationImage/": /"http://www.happytrips.com/photo/31346158.cms.cms/",
+
+    },
+    {
+      /"packageId/": /"package_id/",
+      /"packageNamePrimary/": /"Uttar Pradesh/",
+      /"packageNameSecondary/": /"Ghaziabad-Lucknow-Rishikesh/",
+      /"estimatedTravelTime/": /"4D-3N/",
+      /"packageDestinationImage/": /"https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2017/06/Rumi-Darwaza-Lucknow.jpg/",
+
+    },
+    {
+      /"packageId/": /"package_id/",
+      /"packageNamePrimary/": /"Rajasthan/",
+      /"packageNameSecondary/": /"Ghaziabad-Ajmer-Jaipur/",
+      /"estimatedTravelTime/": /"3D-2N/",
+      /"packageDestinationImage/": /"https://cache-graphicslib.viator.com/graphicslib/thumbs360x240/16615/SITours/full-day-jaipur-city-tour-in-jaipur-241023.jpg/",
+
+    }
+  ]
+}
+
+    </string>
+</resources>
